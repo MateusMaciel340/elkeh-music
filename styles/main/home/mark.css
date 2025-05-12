@@ -1,3 +1,4 @@
+
 .mark__group {
     align-items: center;
     display: flex;
@@ -5,16 +6,14 @@
     flex-wrap: wrap;
     text-align: center;
     gap: 4rem;
-
     border: 4px solid #2e2e2e;
     border-radius: 1rem;
     padding: 2rem;
 }
 
-
 .mark__title {
     font-family: monospace;
-    font-size: 3rem;
+    font-size: 2.5rem;
     border-bottom: 0.7rem solid #e0940f;
     padding: 1rem 0;
 }
