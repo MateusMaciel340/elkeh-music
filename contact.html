@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Elken Music</title>
+    <link rel="shortcut icon" href="images/logo-elken-music.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/logo-header.png" alt="Imagem de duas guitarras" class="header__image"/>
+
+            <h1 class="header__title">
+                Elken<span class="header__emphasis">Music</span>
+            </h1>
+        </div>
+        
+        <nav class="header__nav">
+            <a href="index.html" class="header__link" data-page="home">Início</a>
+            <a href="product.html" class="header__link" data-page="product">Produtos</a>
+            <a href="about.html" class="header__link" data-page="about">Sobre</a>
+            <a href="contact.html" class="header__link" data-page="contact">Contato</a>
+        </nav>
+
+        <ul class="header__social" id="view-header-social"></ul>
+    </header>
+
+    <main class="content">
+        <section class="content__carousel">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper" id="view-slide"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <section class="content__space">
+            <h2 class="content__subtitle">Contato - Elkeh Music</h2>
+
+            <div class="content__contact">
+                <div class="contact__content">
+                    <img src="images/social/instagram-elkeh-music.png" alt="Instagram da Loja Elkeh Music" class="contact__image"/>
+                    <p class="content__text">@elkeh_music</p>
+
+                    <div class="contact__button">
+                        <a href="https://www.instagram.com/elkeh_music/" target="_blank" class="contact__link">Instagram</a>
+                        <a href="https://www.instagram.com/elkeh_music/" target="_blank" class="contact__link-whatsapp">Whatsapp</a>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <img src="images/social/instagram-elkana.png" alt="Instagram do Elkana Tavares, proprietário" class="contact__image"/>
+                    <p class="content__text">@elkana_tavares</p>
+                    <div class="contact__button">
+                        <a href="https://www.instagram.com/elkana_tavares/" target="_blank" class="contact__link">Instagram</a>
+                        <a href="https://www.instagram.com/elkeh_music/" target="_blank" class="contact__link-whatsapp">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__group-content">
+            <div class="footer__presentation">
+                <div class="footer__logo">
+                    <img src="images/logo-header.png" class="Imagem de duas guitarras"/>
+                    <h1 class="footer__title">
+                        Elken<span class="footer__emphasis">Music</span>
+                    </h1>
+                </div>
+
+                <p class="footer__text"><strong>Apaixonado por música?</strong> Venha conhecer a loja onde a melodia ganha vida! Aqui você encontra instrumentos musicais de qualidade, desde violões, guitarras, acessórios e mais.</p>
+            </div>
+            
+            <div class="footer__presentation">
+                 <div class="footer__logo">
+                    <img src="images/logo-header.png" class="Imagem de duas guitarras"/>
+                    <h1 class="footer__title">Categorias</h1>
+                </div>
+
+                <ul class="footer__menu" id="view-category"></ul>
+            </div>
+
+            <div class="footer__presentation">
+                <div class="footer__logo">
+                    <img src="images/logo-header.png" class="Imagem de duas guitarras"/>
+                    <h1 class="footer__title">Redes Sociais</h1>
+                </div>
+
+                <ul class="footer__social" id="view-social"></ul>
+            </div>
+        </div>
+
+        <div class="footer__group-text">
+            <p class="footer__text">® <span id="ano"></span> Elkeh Music. Todos os direitos reservados. Serviço e comercialização de produtos musiciais.</p>
+            <p class="footer__text">Elkeh Music é uma loja de venda e comercialização de produtos musiciais, além de itens variados. O serviço Elkeh Music é comercializado por Elkana Tavares, Rua Oscar Gama, 103 - Pacajus, Ceará - CE, 62870-000, Brasil.</p>
+        </div>
+    </footer>
+
+    <script src="js/viewList/viewListCategory.js" type="module"></script>
+    <script src="js/viewList/viewListSocial.js" type="module"></script>
+    <script src="js/viewList/viewListSlide.js" type="module"></script>
+    <script src="js/viewList/viewListProduct.js" type="module"></script>
+    <script src="js/extra/extra.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/config/swiper.js"></script>
+</body> 
+</html>
